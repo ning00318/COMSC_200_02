@@ -6,7 +6,7 @@ class Die
 public:
     Die(int);
     void setSides(int);
-    void roll();
+    int roll();
     int getSides() const;
     int getValue()const;
 private:
