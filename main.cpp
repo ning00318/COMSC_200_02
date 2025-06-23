@@ -29,11 +29,11 @@ int main()
         {
             die1.roll();
             die2.roll();
-            sumComputerPoints += die1.getValue() + die1.getValue();
+            sumComputerPoints += die1.getValue() + die2.getValue();
 
             die1.roll();
             die2.roll();
-            sumPlayerPoints += die1.getValue() + die1.getValue();
+            sumPlayerPoints += die1.getValue() + die2.getValue();
             cout << "\nYou have " << sumPlayerPoints << " points." << endl << endl;
         }
         else if (yesOrNo == 'N' || yesOrNo == 'n')
