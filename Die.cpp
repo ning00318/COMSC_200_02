@@ -1,5 +1,5 @@
 #include<iostream>
-#include "assign2.h"
+#include "Die.h"
 using namespace std;
 
 Die::Die(int numSides)
