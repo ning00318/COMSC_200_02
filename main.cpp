@@ -44,6 +44,7 @@ int main()
         else
             cout << "\nPlease enter the valid character" << endl;
     }
+
     if (sumPlayerPoints > 0)
     {
         cout << "The computer had " << sumComputerPoints << " points." << endl;
@@ -52,11 +53,10 @@ int main()
         if (sumPlayerPoints > sumComputerPoints && sumPlayerPoints <= 21 || sumPlayerPoints <= 21 && sumComputerPoints > 21)
             cout << "Congratulations! You won!";
         else if (sumPlayerPoints == sumComputerPoints && sumPlayerPoints <= 21)
-            cout << "It's a tie! No one wins.";
+            cout << "Tie! No one wins.";
         else
             cout << "Better luck next time.";
-        
-            cout << "\n\n--------------------------------\n";
+        cout << "\n\n--------------------------------\n";
     }
     
     cout << "\nGame Over\n\nPress any key to continue . . .\n\n";

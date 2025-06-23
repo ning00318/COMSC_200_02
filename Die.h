@@ -10,8 +10,8 @@ public:
     int getSides() const;
     int getValue()const;
 private:
-    int sides;
-    int value;
+    int sides;  // Number of sides on the die
+    int value;  // The die's value
 };
 
 #endif
